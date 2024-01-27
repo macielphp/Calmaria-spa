@@ -1,15 +1,3 @@
-//Variaveis
-    //cores
-    $cor-primaria: #0C0421;
-    $cor-secundaria: 4e75ff;
-    $cor-terciaria: #85a0ff;
-    $cor-quaternaria: #e8f5c8;
-    $cor-default: #CAD4F4;
-    $gradiente-primario: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
-    $gradiente-secundario: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
-        //Fontes
-    $ft-textos: 'Montserrat', sans-serif;
-    $ft-titulos: 'Krona One', sans-serif;
 body {
     // reset
     margin: 0;
@@ -42,5 +30,41 @@ header {
                 font-family: $ft-textos;
             }
         }
+    }
+    #home {
+        max-width: 1040px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .textos-home {
+            max-width: 464px;
+            h1 {
+                font-size: 42px;
+                color: $cor-primaria;
+                margin-bottom: 2rem;
+                font-family: $ft-titulos;
+                span{
+                    color:$cor-secundaria;
+                }
+            }
+            button{
+                font-family: $ft-textos;
+                font-weight: 600;
+                font-size: 22px;
+                padding: 0.8em 2em;
+                background-color: $cor-secundaria;
+                color: #FFFFFF;
+                border-radius: 2rem;
+            }
+        }
+        .img-home{
+            max-width: 474px;
+            img {
+                width: 100%;
+            }
+        }
+        
     }
 }

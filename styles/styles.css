@@ -29,5 +29,40 @@ header nav ul a {
   text-decoration: none;
   color: #0C0421;
   font-weight: 500;
-  font-family: "Montserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+header #home {
+  max-width: 1040px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header #home .textos-home {
+  max-width: 464px;
+}
+header #home .textos-home h1 {
+  font-size: 42px;
+  color: #0C0421;
+  margin-bottom: 2rem;
+  font-family: "Krona One", sans-serif;
+}
+header #home .textos-home h1 span {
+  color: #4e75ff;
+}
+header #home .textos-home button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 0.8em 2em;
+  background-color: #4e75ff;
+  color: #FFFFFF;
+  border-radius: 2rem;
+}
+header #home .img-home {
+  max-width: 474px;
+}
+header #home .img-home img {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
