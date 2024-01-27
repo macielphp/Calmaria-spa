@@ -1,3 +1,7 @@
+@use './abstract/variaveis';
+@use './abstract/root';
+
+@use './components/header';
 body {
     // reset
     margin: 0;
@@ -6,7 +10,7 @@ body {
 }
 
 header {
-    background: $gradiente-primario;
+    background: variaveis.$gradiente-primario;
     padding: 2rem;
     nav {
         display: flex;
@@ -25,9 +29,9 @@ header {
             }
             a { 
                 text-decoration: none;
-                color: $cor-primaria;
+                color: variaveis.$cor-primaria;
                 font-weight: 500;
-                font-family: $ft-textos;
+                font-family: variaveis.$ft-textos;
             }
         }
     }
@@ -42,21 +46,24 @@ header {
             max-width: 464px;
             h1 {
                 font-size: 42px;
-                color: $cor-primaria;
+                color: variaveis.$cor-primaria;
                 margin-bottom: 2rem;
-                font-family: $ft-titulos;
+                font-family: variaveis.$ft-titulos;
                 span{
-                    color:$cor-secundaria;
+                    color:variaveis.$cor-secundaria;
                 }
             }
-            button{
-                font-family: $ft-textos;
+            .btn-main{
+                font-family: variaveis.$ft-textos;
                 font-weight: 600;
-                font-size: 22px;
-                padding: 0.8em 2em;
-                background-color: $cor-secundaria;
+                font-size: 1.3rem;
+                width: 280px;
+                height: 66px;
+                border: none;
+                outline: none;
+                background: variaveis.$cor-secundaria;
                 color: #FFFFFF;
-                border-radius: 2rem;
+                border-radius: 66px;
             }
         }
         .img-home{

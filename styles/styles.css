@@ -14,6 +14,23 @@ header nav {
   align-items: center;
   gap: 1.6rem;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  padding: 2rem;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
 header nav .linha {
   border-top: 1px solid black;
   width: 80%;
@@ -51,14 +68,17 @@ header #home .textos-home h1 {
 header #home .textos-home h1 span {
   color: #4e75ff;
 }
-header #home .textos-home button {
+header #home .textos-home .btn-main {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 22px;
-  padding: 0.8em 2em;
-  background-color: #4e75ff;
+  font-size: 1.3rem;
+  width: 280px;
+  height: 66px;
+  border: none;
+  outline: none;
+  background: #4e75ff;
   color: #FFFFFF;
-  border-radius: 2rem;
+  border-radius: 66px;
 }
 header #home .img-home {
   max-width: 474px;

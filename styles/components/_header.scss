@@ -1,0 +1,13 @@
+@use '../abstract/variaveis';
+
+header {
+    background: variaveis.$gradiente-primario;
+    padding: 2rem;
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6rem;
+    }
+}
