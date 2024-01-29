@@ -1,0 +1,10 @@
+@use '../abstract/mixins';
+#nosso-espaco{
+    @include mixins.margem-central(80%);
+}
+
+@mixin ff-fs-cl($f-family, $f-size, $f-color){
+    font-family: $f-family;
+    font-size: $f-size;
+    color: $f-color; 
+}

@@ -14,23 +14,6 @@ header nav {
   align-items: center;
   gap: 1.6rem;
 }
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-header {
-  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
-  padding: 2rem;
-}
-header nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.6rem;
-}
 header nav .linha {
   border-top: 1px solid black;
   width: 80%;
@@ -50,6 +33,8 @@ header nav ul a {
 }
 header #home {
   max-width: 1040px;
+  margin: 0 auto;
+  width: 80%;
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -85,4 +70,15 @@ header #home .img-home {
 }
 header #home .img-home img {
   width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
 }/*# sourceMappingURL=styles.css.map */
