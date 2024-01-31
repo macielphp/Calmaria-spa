@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1023px){
+    .textos-home{
+            width: 200px;
+    }
+    .textos-home > h1{
+                font-size: 20px;
+    }
+
+}
